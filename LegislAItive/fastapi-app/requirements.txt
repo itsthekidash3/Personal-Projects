@@ -1,0 +1,53 @@
+# Core FastAPI libraries
+fastapi==0.115.9
+uvicorn[standard]==0.34.3
+python-multipart
+
+# Vector DB and AI libraries
+chromadb==1.0.12
+sentence-transformers==4.1.0
+langchain-text-splitters==0.3.8
+pydantic>=2.5.0
+
+# Database Seeding and Operations
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Document processing
+PyPDF2
+pdfplumber
+
+# For chunk recall evaluation
+numpy>=1.24.0
+
+# Optional: For better performance and additional ML features
+torch>=2.0.0
+transformers>=4.30.0
+
+# For testing the chunk recall endpoints
+pytest>=7.4.0
+httpx>=0.25.0
+pytest-asyncio>=0.21.0
+
+# LangChain and LangGraph Core
+langchain
+langchain-community
+langchain-core
+langchain-ollama # Or your preferred LLM integration
+langgraph
+
+# Google API Client
+google-api-python-client
+
+# For PostgreSQL database interaction
+psycopg2-binary
+
+# Miscellaneous utilities
+python-dotenv
+
+# Additional libraries for seeding and document processing
+pypdf
+langchain-huggingface
+chromadb-client
+PyYAML
+langchain-chroma
