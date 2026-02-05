@@ -1,0 +1,10 @@
+flask
+requests
+google-genai
+google-api-python-client
+google-generativeai
+python-dotenv
+streamlit
+alpha_vantage
+pandas
+yfinance
